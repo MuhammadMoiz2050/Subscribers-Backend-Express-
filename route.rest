@@ -1,0 +1,25 @@
+GET http://localhost:3000/subscribers/64ec81f9ef27fc39b3566bfd
+
+###
+GET http://localhost:3000/subscribers
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{ 
+    "name":"Moiz",
+    "subscriberToChannel": "Markiplier"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/64ecbbc75adb613262e46d23
+
+###
+PATCH http://localhost:3000/subscribers/64ecbbc75adb613262e46d23
+Content-Type: application/json
+
+{
+    "name":"Ali"
+}
